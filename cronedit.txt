@@ -1,0 +1,22 @@
+cronedit.exe ... editor for cron-files
+
+cronedit.exe was written in order to learn about visually programming REXX (yes,
+it *is* written with REXX only) with the IBM-EWS-tool DrDialog resp. DrREXX,
+which was put on IBM's DevCon 6.
+
+It allows for visually editing cron-files, so "amateurs" and "lazy" people
+should be able to take advantage of cronrgf (or the like) immediately.
+
+cronedit.exe was written, such that it checks whether the cron-files contain a
+CR-LF (carriage return/linefeed as used in DOS or OS/2 files) or LF (linefeeds
+only, as used in Unix files) at the end of lines, in order to preserve them.
+
+Enjoy.
+
+Rony G. Flatscher
+1995-05-18
+Vienna/Austria/Europe
+
+P.S.: The source will be found in cronedit.RES and may be looked at with
+DrDialog from DevCon.
+
